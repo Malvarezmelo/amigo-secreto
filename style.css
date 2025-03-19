@@ -1,0 +1,101 @@
+/*
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+*/
+body {
+    font-family: Arial, sans-serif;  /* Fuente estándar y limpia */
+    background-color: #3E4E50; /* Verde militar oscuro */
+    color: white;  /* Texto en color blanco */
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el campo de entrada */
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid white;
+    background-color: #50655A; /* Verde militar más claro */
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+}
+
+input::placeholder {
+    color: #D1D1D1;
+}
+
+/* Estilo para los botones */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #2B3A3B; /* Verde militar más oscuro */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #1E292A; /* Verde más profundo */
+}
+
+/* Lista de amigos */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    font-size: 18px;
+    padding: 8px;
+    background-color: #50655A; /* Verde militar más claro */
+    border-radius: 5px;
+    margin: 5px auto;
+    width: 50%;
+    text-align: center;
+}
+
+/* Estilo del resultado */
+#resultado {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px; /* Espacio extra para separar del botón */
+    padding: 15px;
+    background-color: #2B3A3B; /* Verde oscuro */
+    border-radius: 5px;
+    display: block;  /* Fuerza que esté en una línea nueva */
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
